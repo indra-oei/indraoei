@@ -31,7 +31,7 @@
 body {
   margin: 0px;
   font-family: "Roboto", "Inter";
-  background-color: #242424;
+  background-color: #e2e2ff;
 }
 body > div#root {
   position: relative;
