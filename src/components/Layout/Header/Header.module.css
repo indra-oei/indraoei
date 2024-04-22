@@ -1,0 +1,20 @@
+.header > nav > ul {
+  padding: 0px;
+  margin: 0px;
+}
+.header > nav > ul > li {
+  list-style: none;
+}
+.header {
+  position: sticky;
+  top: 0px;
+  padding: 25px 2rem;
+  background-color: #333333;
+  color: #fff;
+  z-index: 2;
+}
+.nav-item-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}

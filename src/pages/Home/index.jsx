@@ -1,5 +1,22 @@
 const HomePage = () => {
-  return <h1>Home Page</h1>;
+  return (
+    <>
+      {/* HERO BANNER */}
+      <section>hero banner</section>
+
+      {/* ABOUT ME */}
+      <section>about me</section>
+
+      {/* PROJECTS */}
+      <section>projects</section>
+
+      {/* SKILLS */}
+      <section>skills</section>
+
+      {/* CONTACT */}
+      <section>contact me</section>
+    </>
+  );
 };
 
 export default HomePage;
