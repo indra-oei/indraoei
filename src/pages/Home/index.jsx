@@ -1,21 +1,16 @@
+import classes from "./Home.module.css";
+
 const HomePage = () => {
   return (
-    <>
-      {/* HERO BANNER */}
-      <section>hero banner</section>
-
-      {/* ABOUT ME */}
-      <section>about me</section>
-
-      {/* PROJECTS */}
-      <section>projects</section>
-
-      {/* SKILLS */}
-      <section>skills</section>
-
-      {/* CONTACT */}
-      <section>contact me</section>
-    </>
+    <div className={classes["home-page"]}>
+      <h1 className={classes["heading"]}>
+        Hello. I am Indra. <br />
+        <p className={classes["heading-typer"]}>{">"} I code for a living.</p>
+      </h1>
+      <p className={classes["short-desc"]}>
+        {"I'm passionate about creating breakthrough technology advances"} and robust systems
+      </p>
+    </div>
   );
 };
 

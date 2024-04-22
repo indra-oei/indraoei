@@ -28,6 +28,14 @@
   font-weight: 900;
   src: url("/Roboto/Roboto-Black.ttf");
 }
+@font-face {
+  font-family: "Jersey";
+  font-weight: 400;
+  src: url("/Jersey/Jersey10-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0px;
   font-family: "Roboto", "Inter";
