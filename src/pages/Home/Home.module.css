@@ -11,10 +11,11 @@
   font-family: "Jersey";
   font-size: 8vw;
   line-height: 70px;
+  color: var(--color-primary);
 }
 .heading-typer {
   overflow: hidden;
-  border-right: 0.1em solid orange;
+  border-right: 0.1em solid var(--color-primary);
   padding-right: 5px;
   white-space: nowrap;
   margin: 0 auto;
@@ -26,7 +27,6 @@
   margin: 0px;
 }
 .short-desc {
-  font-size: 2vw;
   width: 50%;
 }
 
@@ -35,7 +35,6 @@
     font-size: 12vw;
   }
   .short-desc {
-    font-size: 3vw;
     width: 70%;
   }
 }
@@ -47,9 +46,6 @@
   .heading {
     font-size: 13vw;
     line-height: 45px;
-  }
-  .short-desc {
-    font-size: 4vw;
   }
 }
 @keyframes typing {
@@ -68,6 +64,6 @@
     border-color: transparent;
   }
   50% {
-    border-color: orange;
+    border-color: var(--color-primary);
   }
 }

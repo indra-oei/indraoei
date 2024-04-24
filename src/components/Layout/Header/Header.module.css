@@ -11,7 +11,7 @@
   left: 50%;
   transform: translateX(-50%);
   background: #fff;
-  color: #8e8e8e;
+  color: var(--color-secondary);
   padding: 7px 8px;
   border-radius: 30px;
   z-index: 2;
@@ -48,8 +48,6 @@
 
 @media only screen and (max-width: 603px) {
   .header {
-    top: auto;
-    bottom: 20px;
     font-size: 13px;
   }
   .nav-item-list > li {

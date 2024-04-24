@@ -1,0 +1,18 @@
+.section-title {
+  font-family: "Jersey";
+  font-size: 4vw;
+  color: var(--color-primary);
+  margin: 0px;
+  margin-bottom: 2rem;
+  line-height: 40px;
+}
+@media only screen and (max-width: 877px) {
+  .section-title {
+    font-size: 6vw;
+  }
+}
+@media only screen and (max-width: 603px) {
+  .section-title {
+    font-size: 10vw;
+  }
+}

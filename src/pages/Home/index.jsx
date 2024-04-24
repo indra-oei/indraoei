@@ -1,3 +1,4 @@
+import SectionText from "../../components/Layout/SectionText/SectionText";
 import classes from "./Home.module.css";
 
 const HomePage = () => {
@@ -7,9 +8,9 @@ const HomePage = () => {
         Hello. I am Indra. <br />
         <p className={classes["heading-typer"]}>{">"} I code for a living.</p>
       </h1>
-      <p className={classes["short-desc"]}>
+      <SectionText className={classes["short-desc"]}>
         {"I'm passionate about creating breakthrough technology advances"} and robust systems
-      </p>
+      </SectionText>
     </div>
   );
 };

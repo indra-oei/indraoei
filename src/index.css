@@ -33,6 +33,10 @@
   font-weight: 400;
   src: url("/Jersey/Jersey10-Regular.ttf");
 }
+:root {
+  --color-primary: #4b4b7f;
+  --color-secondary: #7e7ea4;
+}
 * {
   box-sizing: border-box;
 }
@@ -40,6 +44,7 @@ body {
   margin: 0px;
   font-family: "Roboto", "Inter";
   background-color: #e2e2ff;
+  color: var(--color-secondary);
 }
 body > div#root {
   position: relative;
