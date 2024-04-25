@@ -14,7 +14,7 @@ const AboutPage = () => {
       <Section>
         <Grid container spacing={5} alignItems="center">
           <Grid item xs={12} sm={4}>
-            <img src="/Images/avatar.jpg" className={classes["avatar"]} alt="Indra Oei" />
+            <img src="/images/avatar.jpg" className={classes["avatar"]} alt="Indra Oei" />
           </Grid>
           <Grid item xs={12} sm={8}>
             <SectionTitle>{"I'm a Software Engineer from the beautiful Nusantara"}</SectionTitle>
