@@ -1,0 +1,5 @@
+.card-body {
+  font-size: 16px;
+  color: var(--color-secondary) !important;
+  margin: 0px;
+}
