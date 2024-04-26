@@ -1,7 +1,7 @@
 export const works = [
   {
     project_name: "KSS Nest",
-    description: "Developed a chat system module in KSS, an ERP SaaS",
+    description: "Developed a chat system module incorporating websockets in KSS, an ERP SaaS",
     link: "",
   },
   {
