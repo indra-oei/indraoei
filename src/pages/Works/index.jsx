@@ -6,6 +6,7 @@ import Section from "../../components/Layout/Section/Section";
 import Card from "../../components/Card/Card";
 import CardTitle from "../../components/Card/CardTitle/CardTitle";
 import CardBody from "../../components/Card/CardBody/CardBody";
+import Labels from "../../components/Labels/Labels";
 
 import { works } from "./works";
 
@@ -22,9 +23,10 @@ const WorksPage = () => {
         <Grid container spacing={3}>
           {works.map((work) => {
             return (
-              <Grid item key={work.project_name} xs={12} sm={6} md={4}>
+              <Grid item key={work.project_name} xs={12} sm={6}>
                 <Card>
                   <CardTitle>{work.project_name}</CardTitle>
+                  <Labels items={work.tech} />
                   <CardBody>{work.description}</CardBody>
                 </Card>
               </Grid>

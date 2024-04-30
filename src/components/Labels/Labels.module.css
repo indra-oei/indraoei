@@ -1,0 +1,16 @@
+.labels {
+  display: flex;
+  gap: 0.25rem;
+  overflow: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.labels::-webkit-scrollbar {
+  display: none;
+}
+.label-chip {
+  background: var(--color-primary) !important;
+  color: #fff !important;
+  font-weight: 500;
+}
