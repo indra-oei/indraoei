@@ -9,10 +9,10 @@ const Footer = () => {
       <div>© {year} Indra Oei • Indonesia</div>
       <div className={classes["footer-social"]}>
         <a href="https://instagram.com/indra.oei" target="_blank" rel="nofollow">
-          <FaInstagram fontSize="1.5rem" />
+          <FaInstagram fontSize="1.25rem" />
         </a>
         <a href="https://linkedin.com/in/indraoei" target="_blank" rel="nofollow">
-          <FaLinkedin fontSize="1.5rem" />
+          <FaLinkedin fontSize="1.25rem" />
         </a>
       </div>
     </footer>
