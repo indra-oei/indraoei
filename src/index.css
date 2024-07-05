@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
   width: 8px;
 }
 body::-webkit-scrollbar-track {
-  background-color: var(--color-primary-bg);
+  background-color: #7e7ea490;
 }
 body::-webkit-scrollbar-thumb {
   background-color: var(--color-secondary);
