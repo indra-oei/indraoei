@@ -35,7 +35,7 @@ const AboutPage = () => {
         <SectionTitle>{"Let's Collaborate"}</SectionTitle>
         <SectionText withMargin={false}>
           {
-            "I believe digitalizing your business should be stress free. If you're looking for someone to help you do the technical stuff or help you maintain the running of your project. I'd love to talk."
+            "I believe digitalizing your business should be stress free. If you're looking for someone to help you with the technical stuff or help you run your project. I'd love to talk."
           }
         </SectionText>
       </Section>

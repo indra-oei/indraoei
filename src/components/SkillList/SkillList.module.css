@@ -1,0 +1,8 @@
+.skill-label {
+  margin: 0px;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+.skill-bar > span {
+  background-color: var(--color-primary) !important;
+}

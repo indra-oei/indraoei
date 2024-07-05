@@ -1,0 +1,19 @@
+.skill-grid {
+  display: flex;
+  align-items: center;
+  flex-direction: column !important;
+  height: 100%;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+.skill-grid__image {
+  width: 40px;
+  height: 40px;
+  margin: auto;
+}
+.skill-grid__title {
+  margin: 0px;
+  font-family: "Jersey";
+  font-size: 18px;
+  font-weight: 600;
+}

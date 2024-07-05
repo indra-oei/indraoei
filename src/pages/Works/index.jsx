@@ -16,7 +16,7 @@ const WorksPage = () => {
       <PageTitle>Works</PageTitle>
       <PageSubtitle>
         {
-          "A collection of projects/works I've been a part of, may it be diving deep as a developer or just to help the project run."
+          "A collection of projects and works I've contributed to, ranging from deep technical involvement as a developer to supporting project operations."
         }
       </PageSubtitle>
       <Section>
