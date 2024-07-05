@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram } from "react-icons/fa";
 import classes from "./Footer.module.css";
 
 const Footer = () => {
@@ -8,11 +8,11 @@ const Footer = () => {
     <footer className={classes["footer"]}>
       <div>© {year} Indra Oei • Indonesia</div>
       <div className={classes["footer-social"]}>
-        <a href="https://instagram.com/indra.oei" target="_blank" rel="nofollow">
+        <a href="https://instagram.com/codeby.io" target="_blank" rel="nofollow">
           <FaInstagram fontSize="1.25rem" />
         </a>
-        <a href="https://linkedin.com/in/indraoei" target="_blank" rel="nofollow">
-          <FaLinkedin fontSize="1.25rem" />
+        <a href="https://github.com/indra-oei" target="_blank" rel="nofollow">
+          <FaGithub fontSize="1.25rem" />
         </a>
       </div>
     </footer>
